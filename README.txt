@@ -29,3 +29,9 @@ add callback to slider to:
     geojson.features = filter(original_geojson, by_Date)
 		update map map.getSource('line').setData(geojson);
 		marker.setLngLat([
+
+
+todo
+- add more people (everyone at once)
+- trigger animation (splash?) when position updates (to be obvious when zoomed out)
+- fade markers based on timestamp age

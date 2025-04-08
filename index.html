@@ -47,6 +47,15 @@
     <section class="tst">
       <button id="playbutton" onclick="play()">play</button>
       <button id="pausebutton" onclick="pause()" disabled>pause</button>
+      <label for="speedFactor">speed</label>
+      <input
+        type="number"
+        value="1"
+        step="0.25"
+        id="speedFactor"
+        name="speedFactor"
+        autocomplete="off"
+      />
       <input
         type="range"
         id="timestamp"
@@ -66,12 +75,14 @@
       let latest_timestamp;
       // animation
       let animation;
-      const speedFactor = 50;
       let last_time;
+      // make "1x" speed vaguely reasonable by dividing by 5
+      const oneTimesSpeedFactor = 5;
 
       // slider
       const timestamp = document.getElementById("timestamp");
       const label = document.getElementById("timestamp_label");
+      const speedInput = document.getElementById("speedFactor");
       function update_ts(event) {
         const ts = event.target.value;
         label.innerHTML = ts + " — " + new Date(ts * 1000);
@@ -80,6 +91,10 @@
         filtered_geojson.features = filtered_geojson.features.filter(
           (f) => ts > f.properties.tst
         );
+        map
+          .getSource("AL-LINE")
+          .setData(geojson_points_to_line(filtered_geojson));
+        // use only last point for points
         filtered_geojson.features = [filtered_geojson.features.at(-1)];
 
         map.getSource("AL").setData(filtered_geojson);
@@ -88,10 +103,17 @@
 
       // utils
       function geojson_points_to_line(points_geojson) {
-        line_geojson = { ...points_geojson };
-        line_geojson.type = "Feature";
+        let coordinates = [];
+        points_geojson.features.forEach((feature) => {
+          coordinates.push(feature.geometry.coordinates);
+        });
+        line_geojson = {
+          type: "Feature",
+          properties: {},
+          geometry: { type: "LineString", coordinates: coordinates },
+        };
 
-        console.log(line_geojson);
+        return line_geojson;
       }
 
       // map
@@ -138,7 +160,25 @@
               data: geojson,
             });
 
-            geojson_points_to_line(geojson);
+            map.addSource("AL-LINE", {
+              type: "geojson",
+              data: geojson_points_to_line(geojson),
+            });
+
+            map.addLayer({
+              id: "AL-LINE",
+              source: "AL-LINE",
+              type: "line",
+              layout: {
+                "line-cap": "round",
+                "line-join": "round",
+              },
+              paint: {
+                "line-color": "#ed6498",
+                "line-width": 5,
+                "line-opacity": 0.8,
+              },
+            });
 
             map.addLayer({
               id: "AL",
@@ -178,7 +218,7 @@
         resetTime = true;
       });
 
-      function animateJourney(last_frame_ts) {
+      function animateJourney(_) {
         // Request the next frame of the animation.
         animation = requestAnimationFrame(animateJourney);
 
@@ -186,19 +226,21 @@
         delta = now_ts - last_time;
         last_time = now_ts;
 
+        const speedFactor = speedInput.value / oneTimesSpeedFactor;
+        const to_add = delta * speedFactor;
+
         console.group("animation");
+        console.log("speedFactor: ", speedFactor);
+        console.log("last_time: ", last_time);
         console.log("now_ts: ", now_ts);
-        console.log("last_frame_ts: ", last_frame_ts);
         console.log("delta: ", delta);
         console.log("timestamp.value: ", timestamp.value);
         console.log(
-          `animation ! adding ${delta / speedFactor} to slider at ${
-            timestamp.value
-          }...`
+          `animation ! adding ${to_add} to slider at ${timestamp.value}...`
         );
         console.groupEnd();
 
-        let next_value = parseFloat(timestamp.value) + delta / speedFactor;
+        let next_value = parseFloat(timestamp.value) + to_add;
         if (next_value > latest_timestamp) {
           next_value = latest_timestamp;
           pause();
