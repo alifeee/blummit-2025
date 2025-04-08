@@ -200,6 +200,10 @@
       const playbutton = document.getElementById("playbutton");
       const pausebutton = document.getElementById("pausebutton");
       function play() {
+        if (timestamp.value == latest_timestamp) {
+          timestamp.value = earliest_timestamp + 1;
+          timestamp.dispatchEvent(new Event("input"));
+        }
         last_time = Date.now();
         animateJourney();
 
