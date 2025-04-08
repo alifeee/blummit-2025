@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Blummit</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 10rem;
+        width: 100%;
+      }
+      .tst {
+        position: absolute;
+        bottom: 0;
+        height: 10rem;
+        width: 100%;
+        padding: 2rem;
+      }
+      #timestamp {
+        width: 100%;
+      }
+      .tst label {
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <section class="tst">
+      <button id="playbutton" onclick="play()">play</button>
+      <button id="pausebutton" onclick="pause()" disabled>pause</button>
+      <input
+        type="range"
+        id="timestamp"
+        name="timestamp"
+        min="0"
+        max="1"
+        step="any"
+        disabled
+      />
+      <label id="timestamp_label" for="timestamp">...timestamp...</label>
+    </section>
+    <script>
+      // geojson (null until loaded)
+      let alfie_geojson;
+      // data (null until loaded)
+      let earliest_timestamp;
+      let latest_timestamp;
+      // animation
+      let animation;
+      const speedFactor = 50;
+      let last_time;
+
+      // slider
+      const timestamp = document.getElementById("timestamp");
+      const label = document.getElementById("timestamp_label");
+      function update_ts(event) {
+        console.groupCollapsed("slider update");
+
+        const ts = event.target.value;
+        console.log("got timestamp to change to: ", ts);
+
+        label.innerHTML = ts + " — " + new Date(ts * 1000);
+
+        let filtered_geojson = { ...alfie_geojson };
+        console.log(
+          `filtering geojson with ${filtered_geojson.features.length} features`
+        );
+        filtered_geojson.features = filtered_geojson.features.filter(
+          (f) => ts > f.properties.tst
+        );
+        filtered_geojson.features = [filtered_geojson.features.at(-1)];
+        console.log(
+          `filtered to geojson with ${filtered_geojson.features.length} features`
+        );
+
+        console.log("adding to map");
+        map.getSource("AL").setData(filtered_geojson);
+        console.groupEnd();
+      }
+      timestamp.addEventListener("input", update_ts);
+
+      // map
+      // TO MAKE THE MAP APPEAR YOU MUST
+      // ADD YOUR ACCESS TOKEN FROM
+      // https://account.mapbox.com
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoiYWxpZmVlZSIsImEiOiJjam0ybDJyOWowaWc3M3JvMm1nM2hnbml3In0.OyqvR1bb4wlWwlqUii_NSg";
+      const map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v9",
+        projection: "globe", // Display the map as a globe, since satellite-v9 defaults to Mercator
+        zoom: 12,
+        center: [13.7677456, 49.8528484],
+      });
+
+      map.addControl(new mapboxgl.NavigationControl());
+      //   map.scrollZoom.disable();
+
+      map.on("style.load", () => {
+        map.setFog({}); // Set the default atmosphere style
+      });
+
+      map.on("load", function () {
+        fetch("alfie.geojson")
+          .then((data) => data.json())
+          .then((geojson) => {
+            alfie_geojson = geojson;
+            console.log(geojson);
+
+            map.fitBounds(turf.bbox(geojson));
+
+            const timestamps = geojson.features.map((f) => f.properties.tst);
+            const timestamps_sorted = timestamps.toSorted();
+            earliest_timestamp = timestamps_sorted.at(0);
+            latest_timestamp = timestamps_sorted.at(-1);
+            const slider = document.getElementById("timestamp");
+            slider.min = earliest_timestamp;
+            slider.max = latest_timestamp;
+            slider.removeAttribute("disabled");
+
+            map.addSource("AL", {
+              type: "geojson",
+              data: geojson,
+            });
+
+            map.addLayer({
+              id: "AL",
+              source: "AL",
+              type: "circle",
+              paint: {
+                "circle-radius": 10,
+                "circle-color": "#007cbf",
+              },
+            });
+
+            setTimeout(() => {
+              timestamp.value = earliest_timestamp + 1;
+              timestamp.dispatchEvent(new Event("input"));
+            }, 1500);
+          });
+      });
+
+      const playbutton = document.getElementById("playbutton");
+      const pausebutton = document.getElementById("pausebutton");
+      function play() {
+        last_time = Date.now();
+        animateJourney();
+
+        pausebutton.removeAttribute("disabled");
+        playbutton.setAttribute("disabled", true);
+      }
+      function pause() {
+        pausebutton.setAttribute("disabled", true);
+        playbutton.removeAttribute("disabled");
+
+        cancelAnimationFrame(animation);
+      }
+
+      // reset time on tab switch etc.
+      document.addEventListener("visibilitychange", () => {
+        resetTime = true;
+      });
+
+      function animateJourney(last_frame_ts) {
+        // Request the next frame of the animation.
+        animation = requestAnimationFrame(animateJourney);
+
+        now_ts = Date.now();
+        delta = now_ts - last_time;
+        last_time = now_ts;
+
+        console.group("animation");
+        console.log("now_ts: ", now_ts);
+        console.log("last_frame_ts: ", last_frame_ts);
+        console.log("delta: ", delta);
+        console.log("timestamp.value: ", timestamp.value);
+        console.log(
+          `animation ! adding ${delta / speedFactor} to slider at ${
+            timestamp.value
+          }...`
+        );
+        console.groupEnd();
+
+        timestamp.value = parseFloat(timestamp.value) + delta / speedFactor;
+        timestamp.dispatchEvent(new Event("input"));
+      }
+    </script>
+    <script></script>
+  </body>
+</html>
