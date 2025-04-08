@@ -138,10 +138,12 @@
       });
 
       map.on("load", function () {
-        fetch("alfie.geojson")
+        fetch("all.geojson")
           .then((data) => data.json())
           .then((geojson) => {
+            geojson = geojson.alfie;
             alfie_geojson = geojson;
+
             console.log(geojson);
 
             map.fitBounds(turf.bbox(geojson));
