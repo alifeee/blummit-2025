@@ -73,30 +73,26 @@
       const timestamp = document.getElementById("timestamp");
       const label = document.getElementById("timestamp_label");
       function update_ts(event) {
-        console.groupCollapsed("slider update");
-
         const ts = event.target.value;
-        console.log("got timestamp to change to: ", ts);
-
         label.innerHTML = ts + " — " + new Date(ts * 1000);
 
         let filtered_geojson = { ...alfie_geojson };
-        console.log(
-          `filtering geojson with ${filtered_geojson.features.length} features`
-        );
         filtered_geojson.features = filtered_geojson.features.filter(
           (f) => ts > f.properties.tst
         );
         filtered_geojson.features = [filtered_geojson.features.at(-1)];
-        console.log(
-          `filtered to geojson with ${filtered_geojson.features.length} features`
-        );
 
-        console.log("adding to map");
         map.getSource("AL").setData(filtered_geojson);
-        console.groupEnd();
       }
       timestamp.addEventListener("input", update_ts);
+
+      // utils
+      function geojson_points_to_line(points_geojson) {
+        line_geojson = { ...points_geojson };
+        line_geojson.type = "Feature";
+
+        console.log(line_geojson);
+      }
 
       // map
       // TO MAKE THE MAP APPEAR YOU MUST
@@ -141,6 +137,8 @@
               type: "geojson",
               data: geojson,
             });
+
+            geojson_points_to_line(geojson);
 
             map.addLayer({
               id: "AL",
@@ -200,7 +198,12 @@
         );
         console.groupEnd();
 
-        timestamp.value = parseFloat(timestamp.value) + delta / speedFactor;
+        let next_value = parseFloat(timestamp.value) + delta / speedFactor;
+        if (next_value > latest_timestamp) {
+          next_value = latest_timestamp;
+          pause();
+        }
+        timestamp.value = next_value;
         timestamp.dispatchEvent(new Event("input"));
       }
     </script>
