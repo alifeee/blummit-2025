@@ -32,7 +32,7 @@
         bottom: 0;
         height: 10rem;
         width: 100%;
-        padding: 2rem;
+        padding: 0.5rem;
       }
       #timestamp {
         width: 100%;
@@ -40,11 +40,15 @@
       .tst label {
         margin: auto;
       }
+      .legend span {
+        margin-right: 0.5rem;
+      }
     </style>
   </head>
   <body>
     <div id="map"></div>
     <section class="tst">
+      <section class="legend"></section>
       <button id="playbutton" onclick="play()">play</button>
       <button id="pausebutton" onclick="pause()" disabled>pause</button>
       <label for="speedFactor">speed</label>
@@ -69,7 +73,7 @@
     </section>
     <script>
       // geojson (null until loaded)
-      let alfie_geojson;
+      let all_geojson;
       // data (null until loaded)
       let earliest_timestamp;
       let latest_timestamp;
@@ -79,6 +83,21 @@
       // make "1x" speed vaguely reasonable by dividing by 5
       const oneTimesSpeedFactor = 5;
 
+      const colour_cycle = [
+        "#aa0000",
+        "#00aa00",
+        "#0000aa",
+        "#aaaa00",
+        "#aa00aa",
+        "#00aaaa",
+        "#aa6600",
+        "#aa0066",
+        "#6600aa",
+        "#66aa00",
+        "#00aa66",
+        "#0066aa",
+      ];
+
       // slider
       const timestamp = document.getElementById("timestamp");
       const label = document.getElementById("timestamp_label");
@@ -87,17 +106,24 @@
         const ts = event.target.value;
         label.innerHTML = ts + " — " + new Date(ts * 1000);
 
-        let filtered_geojson = { ...alfie_geojson };
-        filtered_geojson.features = filtered_geojson.features.filter(
-          (f) => ts > f.properties.tst
-        );
-        map
-          .getSource("AL-LINE")
-          .setData(geojson_points_to_line(filtered_geojson));
-        // use only last point for points
-        filtered_geojson.features = [filtered_geojson.features.at(-1)];
+        Object.entries(all_geojson).forEach(([name, gj], index) => {
+          let filtered_geojson = { ...gj };
 
-        map.getSource("AL").setData(filtered_geojson);
+          filtered_geojson.features = filtered_geojson.features.filter(
+            (f) => ts > f.properties.tst
+          );
+
+          map
+            .getSource(name + "LINE")
+            .setData(geojson_points_to_line(filtered_geojson));
+          // use only last point for points
+          filtered_geojson.features =
+            filtered_geojson.features.length > 0
+              ? [filtered_geojson.features.at(-1)]
+              : [];
+
+          map.getSource(name).setData(filtered_geojson);
+        });
       }
       timestamp.addEventListener("input", update_ts);
 
@@ -141,15 +167,28 @@
         fetch("all.geojson")
           .then((data) => data.json())
           .then((geojson) => {
-            geojson = geojson.alfie;
-            alfie_geojson = geojson;
+            all_geojson = geojson;
 
-            console.log(geojson);
+            const all_bounds = Object.entries(all_geojson).map(([name, gj]) =>
+              turf.bbox(gj)
+            );
+            const max_bounds = all_bounds.reduce((prev, cur) => {
+              bbox = prev;
+              if (cur[0] < bbox[0]) bbox[0] = cur[0];
+              if (cur[1] < bbox[1]) bbox[1] = cur[1];
+              if (cur[2] > bbox[2]) bbox[2] = cur[2];
+              if (cur[3] > bbox[3]) bbox[3] = cur[3];
+              return bbox;
+            });
+            map.fitBounds(max_bounds);
 
-            map.fitBounds(turf.bbox(geojson));
+            const timestamps_sorted = Object.entries(all_geojson)
+              .map(([name, gj]) => {
+                return gj.features.map((f) => f.properties.tst).toSorted();
+              })
+              .reduce((prev, cur) => prev.concat(cur))
+              .toSorted();
 
-            const timestamps = geojson.features.map((f) => f.properties.tst);
-            const timestamps_sorted = timestamps.toSorted();
             earliest_timestamp = timestamps_sorted.at(0);
             latest_timestamp = timestamps_sorted.at(-1);
             const slider = document.getElementById("timestamp");
@@ -157,40 +196,55 @@
             slider.max = latest_timestamp;
             slider.removeAttribute("disabled");
 
-            map.addSource("AL", {
-              type: "geojson",
-              data: geojson,
+            Object.entries(all_geojson).forEach(([name, gj]) => {
+              map.addSource(name, {
+                type: "geojson",
+                data: gj,
+              });
+              map.addSource(name + "LINE", {
+                type: "geojson",
+                data: geojson_points_to_line(gj),
+              });
             });
 
-            map.addSource("AL-LINE", {
-              type: "geojson",
-              data: geojson_points_to_line(geojson),
+            Object.entries(all_geojson).forEach(([name, gj], index) => {
+              map.addLayer({
+                id: name + "LINE",
+                source: name + "LINE",
+                type: "line",
+                layout: {
+                  "line-cap": "round",
+                  "line-join": "round",
+                },
+                paint: {
+                  "line-color": colour_cycle[index],
+                  "line-width": 5,
+                  "line-opacity": 0.8,
+                },
+              });
             });
 
-            map.addLayer({
-              id: "AL-LINE",
-              source: "AL-LINE",
-              type: "line",
-              layout: {
-                "line-cap": "round",
-                "line-join": "round",
-              },
-              paint: {
-                "line-color": "#ed6498",
-                "line-width": 5,
-                "line-opacity": 0.8,
-              },
+            Object.entries(all_geojson).forEach(([name, gj], index) => {
+              map.addLayer({
+                id: name,
+                source: name,
+                type: "circle",
+                paint: {
+                  "circle-radius": 10,
+                  "circle-color": colour_cycle[index],
+                },
+              });
             });
 
-            map.addLayer({
-              id: "AL",
-              source: "AL",
-              type: "circle",
-              paint: {
-                "circle-radius": 10,
-                "circle-color": "#007cbf",
-              },
+            const legend = document.querySelector(".legend");
+            Object.entries(all_geojson).forEach(([name, gj], index) => {
+              const span = document.createElement("span");
+              span.innerText = name;
+              span.style.color = colour_cycle[index];
+              legend.appendChild(span);
             });
+
+            return;
 
             setTimeout(() => {
               timestamp.value = earliest_timestamp + 1;
@@ -234,17 +288,6 @@
 
         const speedFactor = speedInput.value / oneTimesSpeedFactor;
         const to_add = delta * speedFactor;
-
-        console.group("animation");
-        console.log("speedFactor: ", speedFactor);
-        console.log("last_time: ", last_time);
-        console.log("now_ts: ", now_ts);
-        console.log("delta: ", delta);
-        console.log("timestamp.value: ", timestamp.value);
-        console.log(
-          `animation ! adding ${to_add} to slider at ${timestamp.value}...`
-        );
-        console.groupEnd();
 
         let next_value = parseFloat(timestamp.value) + to_add;
         if (next_value > latest_timestamp) {

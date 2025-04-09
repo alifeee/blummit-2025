@@ -29,3 +29,4 @@ done | jq --slurp '. | add' > /var/www/static/owntracks/all.geojson
 - add more people (everyone at once)
 - trigger animation (splash?) when position updates (to be obvious when zoomed out)
 - fade markers based on timestamp age
+- add splash loading screen
