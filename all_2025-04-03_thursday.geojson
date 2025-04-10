@@ -1,0 +1,5250 @@
+{
+  "alfie": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.34376,
+            53.7470292
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743676139,
+          "acc": 3,
+          "alt": 50,
+          "address": "Baker Street Retreat, 43 Baker St, Hull, HU2 8HP, UK",
+          "isotst": "2025-04-03T10:28:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.34376,
+            53.7470292
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743676139,
+          "acc": 3,
+          "alt": 50,
+          "address": "Baker Street Retreat, 43 Baker St, Hull, HU2 8HP, UK",
+          "isotst": "2025-04-03T10:28:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3443337,
+            53.741214
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743676941,
+          "acc": 68,
+          "alt": 51,
+          "address": "Great Passage St, Hull, HU1 2AJ, UK",
+          "isotst": "2025-04-03T10:42:21Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3340957,
+            53.7407952
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677002,
+          "acc": 33,
+          "alt": 52,
+          "address": "Market Pl, Hull, HU1 1SH, UK",
+          "isotst": "2025-04-03T10:43:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3242676,
+            53.7447827
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677061,
+          "acc": 1100,
+          "alt": 52,
+          "address": "Great Union St, Hull, HU9 1DU, UK",
+          "isotst": "2025-04-03T10:44:21Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3242676,
+            53.7447827
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677061,
+          "acc": 1100,
+          "alt": 52,
+          "address": "Great Union St, Hull, HU9 1DU, UK",
+          "isotst": "2025-04-03T10:44:21Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3088354,
+            53.7482637
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677122,
+          "acc": 93,
+          "alt": 51,
+          "address": "Eurovision Logistics, Woodhouse St, Hull, HU9 1RJ, UK",
+          "isotst": "2025-04-03T10:45:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3236663,
+            53.7442615
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677302,
+          "acc": 93,
+          "alt": 53,
+          "address": "Great Union St, Hull, HU9 1UA, UK",
+          "isotst": "2025-04-03T10:48:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3334416,
+            53.7402192
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677362,
+          "acc": 50,
+          "alt": 51,
+          "address": "Blackfriargate, Hull, HU1 1BH, UK",
+          "isotst": "2025-04-03T10:49:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3434119,
+            53.7406616
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677422,
+          "acc": 100,
+          "alt": 50,
+          "address": "Mytongate, Hull, HU1 2NL, UK",
+          "isotst": "2025-04-03T10:50:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3547397,
+            53.737372
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677483,
+          "acc": 35,
+          "alt": 53,
+          "address": "Clive Sullivan Way, Hull, HU3 2AB, UK",
+          "isotst": "2025-04-03T10:51:23Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3644233,
+            53.7315819
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677543,
+          "acc": 122,
+          "alt": 57,
+          "address": "Goulton St, Hull, HU3 4BA, UK",
+          "isotst": "2025-04-03T10:52:23Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.3819614,
+            53.7276381
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677603,
+          "acc": 150,
+          "alt": 57,
+          "address": "Clive Sullivan Way, Hull, HU4 7DW, UK",
+          "isotst": "2025-04-03T10:53:23Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.4007824,
+            53.7235367
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677722,
+          "acc": 1600,
+          "alt": 53,
+          "address": "Clive Sullivan Way, Hull, HU4 7DW, UK",
+          "isotst": "2025-04-03T10:55:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.4418812,
+            53.7176945
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677783,
+          "acc": 103,
+          "alt": 57,
+          "address": "Southfield, Hessle, HU13 0EL, UK",
+          "isotst": "2025-04-03T10:56:23Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.4708048,
+            53.7209103
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677902,
+          "acc": 300,
+          "alt": 74,
+          "address": "A15, North Ferriby, HU14 3LG, UK",
+          "isotst": "2025-04-03T10:58:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.4822381,
+            53.7239079
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677963,
+          "acc": 45,
+          "alt": 90,
+          "address": "On the Go, Petuaria Way, North Ferriby, HU14 3LN, UK",
+          "isotst": "2025-04-03T10:59:23Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.4822381,
+            53.7239079
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743677963,
+          "acc": 45,
+          "alt": 90,
+          "address": "On the Go, Petuaria Way, North Ferriby, HU14 3LN, UK",
+          "isotst": "2025-04-03T10:59:23Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.4941113,
+            53.7245447
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743678534,
+          "acc": 1600,
+          "alt": 78,
+          "address": "Petuaria Way, North Ferriby, HU14 3LL, UK",
+          "isotst": "2025-04-03T11:08:54Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.5201771,
+            53.7247735
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743678594,
+          "acc": 1400,
+          "alt": 82,
+          "address": "Melton Interchange, Melton, HU14 3HA, UK",
+          "isotst": "2025-04-03T11:09:54Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.5380599,
+            53.7282459
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743678715,
+          "acc": 122,
+          "alt": 66,
+          "address": "South Hunsley School and Sixth Form College, East Dale Rd, North Ferriby, HU14 3HS, UK",
+          "isotst": "2025-04-03T11:11:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.5517607,
+            53.7306238
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743678775,
+          "acc": 122,
+          "alt": 68,
+          "address": "Water Ln, Welton, HU15 1PS, UK",
+          "isotst": "2025-04-03T11:12:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.5517607,
+            53.7306238
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743678775,
+          "acc": 122,
+          "alt": 68,
+          "address": "Water Ln, Welton, HU15 1PS, UK",
+          "isotst": "2025-04-03T11:12:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.591111,
+            53.7573275
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743678894,
+          "acc": 1400,
+          "alt": 74,
+          "address": "Brough Rd, South Cave, HU15 2DD, UK",
+          "isotst": "2025-04-03T11:14:54Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.5997252,
+            53.7650837
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679075,
+          "acc": 1900,
+          "alt": 72,
+          "address": "Brough Rd, South Cave, HU15 2BX, UK",
+          "isotst": "2025-04-03T11:17:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.619692,
+            53.7627144
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679135,
+          "acc": 136,
+          "alt": 58,
+          "address": "unnamed road, South Cave, HU15 2JE, UK",
+          "isotst": "2025-04-03T11:18:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.6426538,
+            53.7767312
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679255,
+          "acc": 2000,
+          "alt": 54,
+          "address": "Station Rd, North Cave, HU15 2LE, UK",
+          "isotst": "2025-04-03T11:20:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.619692,
+            53.7627144
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679315,
+          "acc": 3728,
+          "alt": 51,
+          "address": "unnamed road, South Cave, HU15 2JE, UK",
+          "isotst": "2025-04-03T11:21:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.7028283,
+            53.7662204
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679375,
+          "acc": 800,
+          "alt": 53,
+          "address": "Canal Side East, Newport, HU15 2RL, UK",
+          "isotst": "2025-04-03T11:22:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.7329874,
+            53.7633274
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679435,
+          "acc": 1900,
+          "alt": 56,
+          "address": "M62, Eastrington, HU15 2UW, UK",
+          "isotst": "2025-04-03T11:23:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.7379906,
+            53.7544808
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679495,
+          "acc": 400,
+          "alt": 58,
+          "address": "Main Rd, Gilberdyke, HU15 2SH, UK",
+          "isotst": "2025-04-03T11:24:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.8059718,
+            53.7479412
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679555,
+          "acc": 2500,
+          "alt": 66,
+          "address": "M62, Eastrington, DN14 7XB, UK",
+          "isotst": "2025-04-03T11:25:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.8499929,
+            53.7354336
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679736,
+          "acc": 500,
+          "alt": 59,
+          "address": "Howden Dyke Rd, Howdendyke, DN14 7RA, UK",
+          "isotst": "2025-04-03T11:28:56Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.8499929,
+            53.7354336
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679736,
+          "acc": 500,
+          "alt": 59,
+          "address": "Howden Dyke Rd, Howdendyke, DN14 7RA, UK",
+          "isotst": "2025-04-03T11:28:56Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.8714216,
+            53.736297
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679796,
+          "acc": 1900,
+          "alt": 69,
+          "address": "A614, Howden, DN14 7DR, UK",
+          "isotst": "2025-04-03T11:29:56Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.8868277,
+            53.7131367
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679856,
+          "acc": 300,
+          "alt": 60,
+          "address": "Ilkeston Ave, Goole, DN14 6PU, UK",
+          "isotst": "2025-04-03T11:30:56Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9062092,
+            53.7064035
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679917,
+          "acc": 150,
+          "alt": 57,
+          "address": "unnamed road, Goole, DN14 6GJ, UK",
+          "isotst": "2025-04-03T11:31:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9293992,
+            53.7071113
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743679977,
+          "acc": 150,
+          "alt": 58,
+          "address": "Airmyn A614T, Rawcliffe Rd, Airmyn, DN14 8JY, UK",
+          "isotst": "2025-04-03T11:32:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9635795,
+            53.6901822
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680096,
+          "acc": 400,
+          "alt": 60,
+          "address": "unnamed road, Rawcliffe, DN14 8ND, UK",
+          "isotst": "2025-04-03T11:34:56Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9732294,
+            53.6775703
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680157,
+          "acc": 2000,
+          "alt": 64,
+          "address": "Greenland Ln, East Cowick, DN14 8NE, UK",
+          "isotst": "2025-04-03T11:35:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9796558,
+            53.6653247
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680217,
+          "acc": 2300,
+          "alt": 60,
+          "address": "Snaith and Cowick, East Riding of Yorkshire, England, UK",
+          "isotst": "2025-04-03T11:36:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9645441,
+            53.6488537
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680277,
+          "acc": 200,
+          "alt": 60,
+          "address": "M18, Doncaster, DN14 8ST, UK",
+          "isotst": "2025-04-03T11:37:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9630939,
+            53.630583
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680337,
+          "acc": 1700,
+          "alt": 54,
+          "address": "Mount Pleasant Rd, Moorends, DN8 4SR, UK",
+          "isotst": "2025-04-03T11:38:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9802561,
+            53.6145351
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680397,
+          "acc": 1400,
+          "alt": 60,
+          "address": "Omega Blvd, Thorne, DN8 5TX, UK",
+          "isotst": "2025-04-03T11:39:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9785514,
+            53.6006737
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680517,
+          "acc": 700,
+          "alt": 57,
+          "address": "Kingswood Golf Centre, Thorne Rd, Hatfield, DN7 6EP, UK",
+          "isotst": "2025-04-03T11:41:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9988742,
+            53.5835886
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680577,
+          "acc": 1900,
+          "alt": 56,
+          "address": "Cuckoo Ln, Hatfield, DN8 5GS, UK",
+          "isotst": "2025-04-03T11:42:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9870922,
+            53.5694782
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680637,
+          "acc": 600,
+          "alt": 56,
+          "address": "Mosscroft Ln, Hatfield Woodhouse, DN7 6FQ, UK",
+          "isotst": "2025-04-03T11:43:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9870922,
+            53.5694782
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680637,
+          "acc": 600,
+          "alt": 56,
+          "address": "Mosscroft Ln, Hatfield Woodhouse, DN7 6FQ, UK",
+          "isotst": "2025-04-03T11:43:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9955275,
+            53.5690702
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680697,
+          "acc": 1800,
+          "alt": 58,
+          "address": "M18, Old Cantley, DN3 3EQ, UK",
+          "isotst": "2025-04-03T11:44:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.036898,
+            53.5240835
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680818,
+          "acc": 1700,
+          "alt": 58,
+          "address": "M18, Armthorpe, DN3 3EQ, UK",
+          "isotst": "2025-04-03T11:46:58Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.0568771,
+            53.4999111
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743680998,
+          "acc": 100,
+          "alt": 61,
+          "address": "Muirfield Ave, Old Cantley, DN4 6UP, UK",
+          "isotst": "2025-04-03T11:49:58Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.080909,
+            53.4875316
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681058,
+          "acc": 1500,
+          "alt": 59,
+          "address": "M18, Rossington, DN4 7FX, UK",
+          "isotst": "2025-04-03T11:50:58Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.0957215,
+            53.4860454
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681118,
+          "acc": 1100,
+          "alt": 61,
+          "address": "unnamed road, New Rossington, DN11 0GS, UK",
+          "isotst": "2025-04-03T11:51:58Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.080909,
+            53.4875316
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681178,
+          "acc": 1500,
+          "alt": 67,
+          "address": "M18, Rossington, DN4 7FX, UK",
+          "isotst": "2025-04-03T11:52:58Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.1537148,
+            53.4878662
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681238,
+          "acc": 1200,
+          "alt": 62,
+          "address": "Springwell Ln, Loversall, DN11 9DL, UK",
+          "isotst": "2025-04-03T11:53:58Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.1461916,
+            53.4811808
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681298,
+          "acc": 1200,
+          "alt": 88,
+          "address": "M18, Loversall, DN11 9DT, UK",
+          "isotst": "2025-04-03T11:54:58Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.1639604,
+            53.4732388
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681359,
+          "acc": 1200,
+          "alt": 0,
+          "address": "M18, Wadworth, DN11 9BN, UK",
+          "isotst": "2025-04-03T11:55:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.1925991,
+            53.4655251
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681419,
+          "acc": 600,
+          "alt": 0,
+          "address": "M18, Edlington, S66 7RU, UK",
+          "isotst": "2025-04-03T11:56:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.218523,
+            53.4510778
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681479,
+          "acc": 1200,
+          "alt": 0,
+          "address": "Ruddle Ln, Micklebring, S66 7RT, UK",
+          "isotst": "2025-04-03T11:57:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.218523,
+            53.4510778
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681479,
+          "acc": 1200,
+          "alt": 0,
+          "address": "Ruddle Ln, Micklebring, S66 7RT, UK",
+          "isotst": "2025-04-03T11:57:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2446354,
+            53.4322358
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681599,
+          "acc": 1000,
+          "alt": 0,
+          "address": "Rittal, M18, Hellaby, S66 7RU, UK",
+          "isotst": "2025-04-03T11:59:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2600553,
+            53.4087798
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681719,
+          "acc": 1100,
+          "alt": 0,
+          "address": "M18, Thurcroft, S66 1TZ, UK",
+          "isotst": "2025-04-03T12:01:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2651688,
+            53.3975874
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681779,
+          "acc": 1000,
+          "alt": 0,
+          "address": "Brampton Rd, Thurcroft, S66 9AP, UK",
+          "isotst": "2025-04-03T12:02:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2855379,
+            53.3946704
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681839,
+          "acc": 1100,
+          "alt": 0,
+          "address": "M1, Whiston, S66 9JH, UK",
+          "isotst": "2025-04-03T12:03:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.330593,
+            53.4029532
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681899,
+          "acc": 900,
+          "alt": 0,
+          "address": "Whiston Vale, Whiston, S60 4JJ, UK",
+          "isotst": "2025-04-03T12:04:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.3449142,
+            53.3994179
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743681959,
+          "acc": 1000,
+          "alt": 0,
+          "address": "M1, Catcliffe, S60 4EQ, UK",
+          "isotst": "2025-04-03T12:05:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.3523711,
+            53.3971448
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682080,
+          "acc": 88,
+          "alt": 87,
+          "address": "Orchard Rd, Catcliffe, S60 4EQ, UK",
+          "isotst": "2025-04-03T12:08:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.3888816,
+            53.3847412
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682200,
+          "acc": 1000,
+          "alt": 120,
+          "address": "Whittle Way, Waverley, S60 5XA, UK",
+          "isotst": "2025-04-03T12:10:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.3962037,
+            53.3782446
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682260,
+          "acc": 1000,
+          "alt": 157,
+          "address": "Sheffield Parkway, Sheffield, S9 4AE, UK",
+          "isotst": "2025-04-03T12:11:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4114192,
+            53.3751457
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682321,
+          "acc": 104,
+          "alt": 149,
+          "address": "Bowden Wood Cres, Sheffield, S9 4EG, UK",
+          "isotst": "2025-04-03T12:12:01Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4245419,
+            53.3809475
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682380,
+          "acc": 1100,
+          "alt": 143,
+          "address": "Parkway Dr, Sheffield, S9 4GZ, UK",
+          "isotst": "2025-04-03T12:13:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4432707,
+            53.3842699
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682441,
+          "acc": 52,
+          "alt": 115,
+          "address": "Parkway Central, Sheffield Parkway, Sheffield, S2 5AU, UK",
+          "isotst": "2025-04-03T12:14:01Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4432707,
+            53.3842699
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682441,
+          "acc": 52,
+          "alt": 115,
+          "address": "Parkway Central, Sheffield Parkway, Sheffield, S2 5AU, UK",
+          "isotst": "2025-04-03T12:14:01Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4723458,
+            53.3638467
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682501,
+          "acc": 136,
+          "alt": 114,
+          "address": "Queens Rd, Sheffield, S2 4HE, UK",
+          "isotst": "2025-04-03T12:15:01Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4585374,
+            53.382722
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682561,
+          "acc": 92,
+          "alt": 107,
+          "address": "Broad St, Castlegate, Sheffield, S2 5TN, UK",
+          "isotst": "2025-04-03T12:16:01Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4642626,
+            53.3783235
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682621,
+          "acc": 36,
+          "alt": 110,
+          "address": "Sheffield Hallam University City Campus, Leadmill Rd, Cultural Industries, Sheffield, S1 4SE, UK",
+          "isotst": "2025-04-03T12:17:01Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4636769,
+            53.3717776
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682742,
+          "acc": 46,
+          "alt": 109,
+          "address": "Grosvenor Casino, 1 Queens Rd, Cultural Industries, Sheffield, S2 4DF, UK",
+          "isotst": "2025-04-03T12:19:02Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4665454,
+            53.3673797
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682862,
+          "acc": 31,
+          "alt": 114,
+          "address": "Jewson, Queens Rd, Sheffield, S2 4EL, UK",
+          "isotst": "2025-04-03T12:21:02Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4722197,
+            53.363871
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682982,
+          "acc": 12,
+          "alt": 119,
+          "address": "Queens Rd, Sheffield, S2 4HE, UK",
+          "isotst": "2025-04-03T12:23:02Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4722197,
+            53.363871
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743682982,
+          "acc": 12,
+          "alt": 119,
+          "address": "Queens Rd, Sheffield, S2 4HE, UK",
+          "isotst": "2025-04-03T12:23:02Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.462722,
+            53.3769805
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743689199,
+          "acc": 24,
+          "alt": 106,
+          "address": "Railway staff car park, Suffolk Rd, Sheaf Valley, Sheffield, S2 4AR, UK",
+          "isotst": "2025-04-03T14:06:39Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4730975,
+            53.3700025
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743689797,
+          "acc": 16,
+          "alt": 121,
+          "address": "The Steamworks, 109-111 Randall St, Sheffield, S2 4SJ, UK",
+          "isotst": "2025-04-03T14:16:37Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4724126,
+            53.3552539
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743699868,
+          "acc": 21,
+          "alt": 138,
+          "address": "95-97 Meersbrook Park Rd, Sheffield, S8 9FP, UK",
+          "isotst": "2025-04-03T17:04:28Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4729644,
+            53.3619832
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743700142,
+          "acc": 24,
+          "alt": 117,
+          "address": "Kitchens Galore, 454 London Rd, Sheffield, S2 4HP, UK",
+          "isotst": "2025-04-03T17:09:02Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4711908,
+            53.3675338
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743700258,
+          "acc": 30,
+          "alt": 126,
+          "address": "Bramall Ln, Sheffield, S2 4RQ, UK",
+          "isotst": "2025-04-03T17:10:58Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4728672,
+            53.3722456
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743700318,
+          "acc": 44,
+          "alt": 118,
+          "address": "Saint Mary's Gate, Sheffield, S2 4FJ, UK",
+          "isotst": "2025-04-03T17:11:58Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4797001,
+            53.3741876
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 35,
+          "tst": 1743700405,
+          "acc": 5,
+          "alt": 125,
+          "address": "Moore St, Sheffield, S1 4LP, UK",
+          "isotst": "2025-04-03T17:13:25Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4842388,
+            53.3778664
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 44,
+          "tst": 1743700448,
+          "acc": 5,
+          "alt": 142,
+          "address": "Upper Hanover St, Saint George's, Sheffield, S3 7RQ, UK",
+          "isotst": "2025-04-03T17:14:08Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4842388,
+            53.3778664
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 44,
+          "tst": 1743700448,
+          "acc": 5,
+          "alt": 142,
+          "address": "Upper Hanover St, Saint George's, Sheffield, S3 7RQ, UK",
+          "isotst": "2025-04-03T17:14:08Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4898809,
+            53.3809082
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 30,
+          "tst": 1743700874,
+          "acc": 7,
+          "alt": 179,
+          "address": "Western Bank, Sheffield, S10 2JA, UK",
+          "isotst": "2025-04-03T17:21:14Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4927535,
+            53.3850776
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 22,
+          "tst": 1743701003,
+          "acc": 7,
+          "alt": 183,
+          "address": "Crookes Valley Rd, Sheffield, S6 3FG, UK",
+          "isotst": "2025-04-03T17:23:23Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4927535,
+            53.3850776
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 22,
+          "tst": 1743701003,
+          "acc": 7,
+          "alt": 183,
+          "address": "Crookes Valley Rd, Sheffield, S6 3FG, UK",
+          "isotst": "2025-04-03T17:23:23Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.5024845,
+            53.3873089
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743701994,
+          "acc": 15,
+          "alt": 302,
+          "address": "Melbourn Rd, Sheffield, S10 1NR, UK",
+          "isotst": "2025-04-03T17:39:54Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.5024845,
+            53.3873089
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743701994,
+          "acc": 15,
+          "alt": 302,
+          "address": "Melbourn Rd, Sheffield, S10 1NR, UK",
+          "isotst": "2025-04-03T17:39:54Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.495617,
+            53.3802731
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743703009,
+          "acc": 23,
+          "alt": 189,
+          "address": "Tree Root Walk, Sheffield, S10 2SJ, UK",
+          "isotst": "2025-04-03T17:56:49Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4940538,
+            53.3691216
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743703456,
+          "acc": 22,
+          "alt": 142,
+          "address": "Costa, 451 Ecclesall Rd, Sheffield, S11 8PN, UK",
+          "isotst": "2025-04-03T18:04:16Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4940538,
+            53.3691216
+          ]
+        },
+        "properties": {
+          "name": "AL",
+          "vel": 0,
+          "tst": 1743703456,
+          "acc": 22,
+          "alt": 142,
+          "address": "Costa, 451 Ecclesall Rd, Sheffield, S11 8PN, UK",
+          "isotst": "2025-04-03T18:04:16Z"
+        }
+      }
+    ]
+  },
+  "clarice": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4622289,
+            53.3782384
+          ]
+        },
+        "properties": {
+          "name": "CL",
+          "vel": 0,
+          "tst": 1743699230,
+          "acc": 12,
+          "alt": 110,
+          "address": "Sheffield, Granville St, Sheaf Valley, S1 2BP, UK",
+          "isotst": "2025-04-03T16:53:50Z"
+        }
+      }
+    ]
+  },
+  "evie": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "eli": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "nyama": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "hannah": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.494665,
+            53.37953
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743666690,
+          "acc": 17,
+          "alt": 147,
+          "address": "Severn Rd, Sheffield, S10 2UF, UK",
+          "isotst": "2025-04-03T07:51:30Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.493312,
+            53.380415
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743666757,
+          "acc": 25,
+          "alt": 142,
+          "address": "Pentonville, 23 Northumberland Rd, Sheffield, S10 2TX, UK",
+          "isotst": "2025-04-03T07:52:37Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.49158,
+            53.380164
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 7,
+          "tst": 1743666854,
+          "acc": 14,
+          "alt": 134,
+          "address": "Sheffield Children's Hospital, Western Bank, Sheffield, S10 2TH, UK",
+          "isotst": "2025-04-03T07:54:14Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.490588,
+            53.380171
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 5,
+          "tst": 1743666929,
+          "acc": 14,
+          "alt": 128,
+          "address": "Sheffield Children's Hospital, Western Bank, Sheffield, S10 2TH, UK",
+          "isotst": "2025-04-03T07:55:29Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.489802,
+            53.380837
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743669266,
+          "acc": 5,
+          "alt": 128,
+          "address": "Western Bank, Sheffield, S10 2JA, UK",
+          "isotst": "2025-04-03T08:34:26Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.490455,
+            53.382506
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743682893,
+          "acc": 45,
+          "alt": 133,
+          "address": "Sheffield Children's Hospital, Western Bank, Sheffield, S10 2TH, UK",
+          "isotst": "2025-04-03T12:21:33Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.489774,
+            53.381082
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743683110,
+          "acc": 18,
+          "alt": 127,
+          "address": "Western Bank, Sheffield, S10 2JA, UK",
+          "isotst": "2025-04-03T12:25:10Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.490498,
+            53.379909
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743695859,
+          "acc": 19,
+          "alt": 128,
+          "address": "Sheffield Children's Hospital, Western Bank, Sheffield, S10 2TH, UK",
+          "isotst": "2025-04-03T15:57:39Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.492282,
+            53.380311
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743695957,
+          "acc": 17,
+          "alt": 137,
+          "address": "Sheffield Children's Hospital, Western Bank, Sheffield, S10 2TH, UK",
+          "isotst": "2025-04-03T15:59:17Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.493657,
+            53.379473
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743696055,
+          "acc": 25,
+          "alt": 145,
+          "address": "Charles Clifford Dental Hospital, Tree Root Walk, Sheffield, S10 2TA, UK",
+          "isotst": "2025-04-03T16:00:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.495184,
+            53.379752
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743696147,
+          "acc": 12,
+          "alt": 149,
+          "address": "Severn Rd, Sheffield, S10 2UF, UK",
+          "isotst": "2025-04-03T16:02:27Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.496409,
+            53.379263
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 4,
+          "tst": 1743696225,
+          "acc": 9,
+          "alt": 156,
+          "address": "Dalkeith Terrace, Beaufort Rd, Sheffield, S10 2ST, UK",
+          "isotst": "2025-04-03T16:03:45Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.497054,
+            53.379158
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743696280,
+          "acc": 14,
+          "alt": 157,
+          "address": "Dalkeith Terrace, Beaufort Rd, Sheffield, S10 2ST, UK",
+          "isotst": "2025-04-03T16:04:40Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.497896,
+            53.378947
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743696331,
+          "acc": 17,
+          "alt": 159,
+          "address": "Dalkeith Terrace, Beaufort Rd, Sheffield, S10 2ST, UK",
+          "isotst": "2025-04-03T16:05:31Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.504707,
+            53.380806
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 8,
+          "tst": 1743697422,
+          "acc": 15,
+          "alt": 198,
+          "address": "Hawthorne Mews, Sheffield, S10 5AB, UK",
+          "isotst": "2025-04-03T16:23:42Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.506782,
+            53.380783
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 10,
+          "tst": 1743697468,
+          "acc": 17,
+          "alt": 209,
+          "address": "The Coach House, 40 Lydgate Ln, Sheffield, S10 5FH, UK",
+          "isotst": "2025-04-03T16:24:28Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.508082,
+            53.3796
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 12,
+          "tst": 1743697520,
+          "acc": 14,
+          "alt": 214,
+          "address": "Tapton Cres Rd, Sheffield, S10 5DB, UK",
+          "isotst": "2025-04-03T16:25:20Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.51183,
+            53.377534
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 15,
+          "tst": 1743697608,
+          "acc": 18,
+          "alt": 226,
+          "address": "Tapton Cres Rd, Sheffield, S10 5DB, UK",
+          "isotst": "2025-04-03T16:26:48Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.515988,
+            53.378054
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 14,
+          "tst": 1743697700,
+          "acc": 14,
+          "alt": 224,
+          "address": "Manchester Rd, Sheffield, S10 5DN, UK",
+          "isotst": "2025-04-03T16:28:20Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.518198,
+            53.379484
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 15,
+          "tst": 1743697746,
+          "acc": 14,
+          "alt": 232,
+          "address": "Manchester Rd, Sheffield, S10 5DN, UK",
+          "isotst": "2025-04-03T16:29:06Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.521628,
+            53.380446
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 19,
+          "tst": 1743697792,
+          "acc": 16,
+          "alt": 237,
+          "address": "Stephen Hill Methodist Church, 547 Manchester Rd, Sheffield, S10 5PL, UK",
+          "isotst": "2025-04-03T16:29:52Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.524774,
+            53.380698
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 29,
+          "tst": 1743697822,
+          "acc": 11,
+          "alt": 236,
+          "address": "Manchester Rd, Sheffield, S10 5PT, UK",
+          "isotst": "2025-04-03T16:30:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.529351,
+            53.380349
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 30,
+          "tst": 1743697859,
+          "acc": 13,
+          "alt": 229,
+          "address": "Manchester Rd, Sheffield, S10 5PT, UK",
+          "isotst": "2025-04-03T16:30:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.534521,
+            53.381067
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 30,
+          "tst": 1743697900,
+          "acc": 18,
+          "alt": 220,
+          "address": "Manchester Rd, Sheffield, S10 5PU, UK",
+          "isotst": "2025-04-03T16:31:40Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.541576,
+            53.380132
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 36,
+          "tst": 1743697949,
+          "acc": 18,
+          "alt": 207,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T16:32:29Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.54685,
+            53.379602
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 34,
+          "tst": 1743697982,
+          "acc": 6,
+          "alt": 193,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T16:33:02Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.552165,
+            53.379997
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 43,
+          "tst": 1743698015,
+          "acc": 5,
+          "alt": 189,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T16:33:35Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.553846,
+            53.38003
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 35,
+          "tst": 1743698026,
+          "acc": 11,
+          "alt": 187,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T16:33:46Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.562035,
+            53.38076
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 32,
+          "tst": 1743698082,
+          "acc": 10,
+          "alt": 172,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T16:34:42Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.560334,
+            53.381652
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 2,
+          "tst": 1743698304,
+          "acc": 18,
+          "alt": 160,
+          "address": "Rivelin Valley Rd, Sheffield, S6 5SG, UK",
+          "isotst": "2025-04-03T16:38:24Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.555492,
+            53.38022
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 4,
+          "tst": 1743700998,
+          "acc": 32,
+          "alt": 182,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T17:23:18Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.555448,
+            53.380164
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743701014,
+          "acc": 7,
+          "alt": 182,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T17:23:34Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.555448,
+            53.380164
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743701014,
+          "acc": 7,
+          "alt": 182,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T17:23:34Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.55107,
+            53.380061
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 19,
+          "tst": 1743701087,
+          "acc": 18,
+          "alt": 189,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T17:24:47Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.544846,
+            53.37968
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 18,
+          "tst": 1743701168,
+          "acc": 20,
+          "alt": 199,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T17:26:08Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.539345,
+            53.380577
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 4,
+          "tst": 1743701256,
+          "acc": 19,
+          "alt": 216,
+          "address": "Manchester Rd, Sheffield, S10 5AF, UK",
+          "isotst": "2025-04-03T17:27:36Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.535222,
+            53.38108
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 11,
+          "tst": 1743701314,
+          "acc": 34,
+          "alt": 215,
+          "address": "Manchester Rd, Sheffield, S10 5PU, UK",
+          "isotst": "2025-04-03T17:28:34Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.532121,
+            53.380416
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 4,
+          "tst": 1743701367,
+          "acc": 20,
+          "alt": 225,
+          "address": "Manchester Rd, Sheffield, S10 5PU, UK",
+          "isotst": "2025-04-03T17:29:27Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.528497,
+            53.380464
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 11,
+          "tst": 1743701421,
+          "acc": 39,
+          "alt": 230,
+          "address": "Manchester Rd, Sheffield, S10 5PT, UK",
+          "isotst": "2025-04-03T17:30:21Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.52353,
+            53.380899
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 14,
+          "tst": 1743701483,
+          "acc": 23,
+          "alt": 237,
+          "address": "Manchester Rd, Sheffield, S10 5NF, UK",
+          "isotst": "2025-04-03T17:31:23Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.519482,
+            53.37993
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 23,
+          "tst": 1743701531,
+          "acc": 17,
+          "alt": 235,
+          "address": "Crosspool Tavern, 462 Manchester Rd, Sheffield, S10 5DT, UK",
+          "isotst": "2025-04-03T17:32:11Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.513938,
+            53.380807
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 16,
+          "tst": 1743701618,
+          "acc": 17,
+          "alt": 247,
+          "address": "205, 203 Lydgate Ln, Sheffield, S10 5FS, UK",
+          "isotst": "2025-04-03T17:33:38Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.508233,
+            53.380794
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 35,
+          "tst": 1743701690,
+          "acc": 15,
+          "alt": 217,
+          "address": "Lydgate Ln, Sheffield, S10 5FS, UK",
+          "isotst": "2025-04-03T17:34:50Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.507997,
+            53.385628
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 18,
+          "tst": 1743701911,
+          "acc": 18,
+          "alt": 222,
+          "address": "Crookes, Sheffield, S10 1UD, UK",
+          "isotst": "2025-04-03T17:38:31Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.504192,
+            53.386338
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 23,
+          "tst": 1743701968,
+          "acc": 18,
+          "alt": 202,
+          "address": "Binghams Food, 148-154 Western Rd, Sheffield, S10 1HU, UK",
+          "isotst": "2025-04-03T17:39:28Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.502517,
+            53.3872
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743702239,
+          "acc": 6,
+          "alt": 196,
+          "address": "Melbourn Rd, Sheffield, S10 1NR, UK",
+          "isotst": "2025-04-03T17:43:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.50314,
+            53.386417
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 1,
+          "tst": 1743702689,
+          "acc": 8,
+          "alt": 197,
+          "address": "Springvale Rd, Sheffield, S10 1LN, UK",
+          "isotst": "2025-04-03T17:51:29Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.501474,
+            53.384097
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 6,
+          "tst": 1743702779,
+          "acc": 35,
+          "alt": 188,
+          "address": "Western Rd, Sheffield, S10 1HU, UK",
+          "isotst": "2025-04-03T17:52:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.500502,
+            53.381782
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 27,
+          "tst": 1743702858,
+          "acc": 20,
+          "alt": 175,
+          "address": "Orrysdale, Crookesmoor Rd, Sheffield, S10 1BJ, UK",
+          "isotst": "2025-04-03T17:54:18Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.500276,
+            53.381326
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 25,
+          "tst": 1743702866,
+          "acc": 19,
+          "alt": 170,
+          "address": "Orrysdale, Crookesmoor Rd, Sheffield, S10 1BJ, UK",
+          "isotst": "2025-04-03T17:54:26Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.500266,
+            53.381185
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 14,
+          "tst": 1743702869,
+          "acc": 21,
+          "alt": 171,
+          "address": "Crookesmoor Rd, Sheffield, S10 1BJ, UK",
+          "isotst": "2025-04-03T17:54:29Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.500266,
+            53.381185
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 14,
+          "tst": 1743702869,
+          "acc": 21,
+          "alt": 171,
+          "address": "Crookesmoor Rd, Sheffield, S10 1BJ, UK",
+          "isotst": "2025-04-03T17:54:29Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.497832,
+            53.379055
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 1,
+          "tst": 1743702960,
+          "acc": 25,
+          "alt": 160,
+          "address": "Dalkeith Terrace, Beaufort Rd, Sheffield, S10 2ST, UK",
+          "isotst": "2025-04-03T17:56:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.497766,
+            53.379033
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 0,
+          "tst": 1743702969,
+          "acc": 23,
+          "alt": 159,
+          "address": "Dalkeith Terrace, Beaufort Rd, Sheffield, S10 2ST, UK",
+          "isotst": "2025-04-03T17:56:09Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.497746,
+            53.379029
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 1,
+          "tst": 1743702971,
+          "acc": 22,
+          "alt": 159,
+          "address": "Dalkeith Terrace, Beaufort Rd, Sheffield, S10 2ST, UK",
+          "isotst": "2025-04-03T17:56:11Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.497746,
+            53.379029
+          ]
+        },
+        "properties": {
+          "name": "HA",
+          "vel": 1,
+          "tst": 1743702971,
+          "acc": 22,
+          "alt": 159,
+          "address": "Dalkeith Terrace, Beaufort Rd, Sheffield, S10 2ST, UK",
+          "isotst": "2025-04-03T17:56:11Z"
+        }
+      }
+    ]
+  },
+  "oli": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2045807,
+            52.9564428
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 2,
+          "tst": 1743676683,
+          "acc": 9,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:38:03Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2045807,
+            52.9564428
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 2,
+          "tst": 1743676683,
+          "acc": 9,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:38:03Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2045807,
+            52.9564428
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 2,
+          "tst": 1743676683,
+          "acc": 9,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:38:03Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2045807,
+            52.9564428
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 2,
+          "tst": 1743676683,
+          "acc": 9,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:38:03Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2044876,
+            52.9564983
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743677752,
+          "acc": 17,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:55:52Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2044876,
+            52.9564983
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743677902,
+          "acc": 100,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:58:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2044876,
+            52.9564983
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743677902,
+          "acc": 100,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:58:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2044876,
+            52.9564983
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743677902,
+          "acc": 100,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:58:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2044876,
+            52.9564983
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743677902,
+          "acc": 100,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:58:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2044876,
+            52.9564983
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743677902,
+          "acc": 100,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:58:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2044876,
+            52.9564983
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743677902,
+          "acc": 100,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:58:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2044876,
+            52.9564983
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743677902,
+          "acc": 100,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:58:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2044876,
+            52.9564983
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743677902,
+          "acc": 100,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T10:58:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2045406,
+            52.9564379
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743700317,
+          "acc": 4,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T17:11:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2045406,
+            52.9564379
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743700317,
+          "acc": 4,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T17:11:57Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2045406,
+            52.9564384
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743700327,
+          "acc": 4,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T17:12:07Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2045406,
+            52.9564384
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743700327,
+          "acc": 4,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T17:12:07Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2045406,
+            52.9564384
+          ]
+        },
+        "properties": {
+          "name": "OL",
+          "vel": 0,
+          "tst": 1743700327,
+          "acc": 4,
+          "alt": 86,
+          "address": "79 Runswick Dr, Wollaton, NG8 1JE, UK",
+          "isotst": "2025-04-03T17:12:07Z"
+        }
+      }
+    ]
+  },
+  "sid": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.498116,
+            53.3843
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 1,
+          "tst": 1743672968,
+          "acc": 13,
+          "alt": 164,
+          "address": "Spring Hill Rd, Sheffield, S10 1ES, UK",
+          "isotst": "2025-04-03T09:36:08Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.496222,
+            53.384536
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743676356,
+          "acc": 18,
+          "alt": 153,
+          "address": "Crookesmoor Rd, Sheffield, S10 1BD, UK",
+          "isotst": "2025-04-03T10:32:36Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.494083,
+            53.385419
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743676451,
+          "acc": 20,
+          "alt": 144,
+          "address": "Crookesmoor Rd, Sheffield, S6 3FG, UK",
+          "isotst": "2025-04-03T10:34:11Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.491851,
+            53.384745
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 2,
+          "tst": 1743676546,
+          "acc": 13,
+          "alt": 127,
+          "address": "Crookes Valley Rd, Sheffield, S6 3FG, UK",
+          "isotst": "2025-04-03T10:35:46Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.491913,
+            53.384756
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743676577,
+          "acc": 26,
+          "alt": 281,
+          "address": "Crookes Valley Rd, Sheffield, S6 3FG, UK",
+          "isotst": "2025-04-03T10:36:17Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.490814,
+            53.384271
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743676615,
+          "acc": 41,
+          "alt": 124,
+          "address": "Crookes Valley Park Bowls Club, Crookes Valley Rd, Sheffield, S6 3FG, UK",
+          "isotst": "2025-04-03T10:36:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.489007,
+            53.383542
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743676674,
+          "acc": 25,
+          "alt": 120,
+          "address": "Winter St, Sheffield, S3 7ND, UK",
+          "isotst": "2025-04-03T10:37:54Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.486951,
+            53.381418
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743676895,
+          "acc": 60,
+          "alt": 0,
+          "address": "University of Sheffield, Western Bank, Sheffield, S10 2TN, UK",
+          "isotst": "2025-04-03T10:41:35Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.487528,
+            53.381005
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 3,
+          "tst": 1743676914,
+          "acc": 14,
+          "alt": 117,
+          "address": "University of Sheffield, Western Bank, Sheffield, S10 2TN, UK",
+          "isotst": "2025-04-03T10:41:54Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.487546,
+            53.380968
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743676915,
+          "acc": 15,
+          "alt": 120,
+          "address": "University of Sheffield, Western Bank, Sheffield, S10 2TN, UK",
+          "isotst": "2025-04-03T10:41:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.487544,
+            53.380849
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743677101,
+          "acc": 26,
+          "alt": 118,
+          "address": "University of Sheffield, Western Bank, Sheffield, S10 2TN, UK",
+          "isotst": "2025-04-03T10:45:01Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.487668,
+            53.381801
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743679610,
+          "acc": 13,
+          "alt": 120,
+          "address": "University of Sheffield, Western Bank, Sheffield, S10 2TN, UK",
+          "isotst": "2025-04-03T11:26:50Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.487669,
+            53.381801
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743684391,
+          "acc": 11,
+          "alt": 120,
+          "address": "University of Sheffield, Western Bank, Sheffield, S10 2TN, UK",
+          "isotst": "2025-04-03T12:46:31Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.445462,
+            53.384295
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743695170,
+          "acc": 1000,
+          "alt": 0,
+          "address": "Sheffield Parkway, Sheffield, S2 5AU, UK",
+          "isotst": "2025-04-03T15:46:10Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.492466,
+            53.384941
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 3,
+          "tst": 1743695326,
+          "acc": 13,
+          "alt": 129,
+          "address": "Crookes Valley Rd, Sheffield, S6 3FG, UK",
+          "isotst": "2025-04-03T15:48:46Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.494184,
+            53.385279
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743695443,
+          "acc": 20,
+          "alt": 281,
+          "address": "Harcourt Rd, Sheffield, S10 1DH, UK",
+          "isotst": "2025-04-03T15:50:43Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.495878,
+            53.384536
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743695571,
+          "acc": 39,
+          "alt": 140,
+          "address": "Crookesmoor Rd, Sheffield, S10 1BD, UK",
+          "isotst": "2025-04-03T15:52:51Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.497925,
+            53.383991
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743695666,
+          "acc": 19,
+          "alt": 161,
+          "address": "Spring Hill Rd, Sheffield, S10 1ES, UK",
+          "isotst": "2025-04-03T15:54:26Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.497997,
+            53.384191
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743695862,
+          "acc": 22,
+          "alt": 163,
+          "address": "Spring Hill Rd, Sheffield, S10 1ES, UK",
+          "isotst": "2025-04-03T15:57:42Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.498153,
+            53.384258
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743695878,
+          "acc": 17,
+          "alt": 164,
+          "address": "Spring Hill Rd, Sheffield, S10 1ES, UK",
+          "isotst": "2025-04-03T15:57:58Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.500863,
+            53.384137
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743700342,
+          "acc": 19,
+          "alt": 186,
+          "address": "RA Aesthetics, 214 School Rd, Sheffield, S10 1GL, UK",
+          "isotst": "2025-04-03T17:12:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.503609,
+            53.384956
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743700499,
+          "acc": 31,
+          "alt": 198,
+          "address": "Binghams Food, 148-154 Western Rd, Sheffield, S10 1HU, UK",
+          "isotst": "2025-04-03T17:14:59Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.504854,
+            53.385962
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743700594,
+          "acc": 19,
+          "alt": 207,
+          "address": "Binghams Food, 148-154 Western Rd, Sheffield, S10 1HU, UK",
+          "isotst": "2025-04-03T17:16:34Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.505,
+            53.386094
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 5,
+          "tst": 1743700760,
+          "acc": 9,
+          "alt": 208,
+          "address": "Binghams Food, 148-154 Western Rd, Sheffield, S10 1HU, UK",
+          "isotst": "2025-04-03T17:19:20Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.506892,
+            53.387591
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743700760,
+          "acc": 33,
+          "alt": 207,
+          "address": "Little China, 188 Northfield Rd, Sheffield, S10 1QU, UK",
+          "isotst": "2025-04-03T17:19:20Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.506892,
+            53.387591
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743700760,
+          "acc": 33,
+          "alt": 207,
+          "address": "Little China, 188 Northfield Rd, Sheffield, S10 1QU, UK",
+          "isotst": "2025-04-03T17:19:20Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.508944,
+            53.388219
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743700876,
+          "acc": 26,
+          "alt": 223,
+          "address": "64-72 Longfield Rd, Sheffield, S10 1QW, UK",
+          "isotst": "2025-04-03T17:21:16Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.510845,
+            53.387406
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743701022,
+          "acc": 34,
+          "alt": 181,
+          "address": "Tinker Ln, Sheffield, S10 1SE, UK",
+          "isotst": "2025-04-03T17:23:42Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.510661,
+            53.388036
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743701234,
+          "acc": 60,
+          "alt": 181,
+          "address": "Tinker Ln, Sheffield, S10 1SE, UK",
+          "isotst": "2025-04-03T17:27:14Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.507589,
+            53.387094
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743702776,
+          "acc": 20,
+          "alt": 225,
+          "address": "Little China, 188 Northfield Rd, Sheffield, S10 1QU, UK",
+          "isotst": "2025-04-03T17:52:56Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.507354,
+            53.386889
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743703036,
+          "acc": 20,
+          "alt": 224,
+          "address": "Little China, 188 Northfield Rd, Sheffield, S10 1QU, UK",
+          "isotst": "2025-04-03T17:57:16Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.507431,
+            53.386679
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743703781,
+          "acc": 75,
+          "alt": 224,
+          "address": "The Punch Bowl, 236 Crookes, Sheffield, S10 1TH, UK",
+          "isotst": "2025-04-03T18:09:41Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.504973,
+            53.386119
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743703856,
+          "acc": 19,
+          "alt": 207,
+          "address": "Binghams Food, 148-154 Western Rd, Sheffield, S10 1HU, UK",
+          "isotst": "2025-04-03T18:10:56Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.502663,
+            53.384087
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743704089,
+          "acc": 25,
+          "alt": 207,
+          "address": "Binghams Food, 148-154 Western Rd, Sheffield, S10 1HU, UK",
+          "isotst": "2025-04-03T18:14:49Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.500811,
+            53.384091
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743704183,
+          "acc": 19,
+          "alt": 187,
+          "address": "RA Aesthetics, 214 School Rd, Sheffield, S10 1GL, UK",
+          "isotst": "2025-04-03T18:16:23Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.500019,
+            53.384241
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743704240,
+          "acc": 105,
+          "alt": 181,
+          "address": "RA Aesthetics, 214 School Rd, Sheffield, S10 1GL, UK",
+          "isotst": "2025-04-03T18:17:20Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.497947,
+            53.384025
+          ]
+        },
+        "properties": {
+          "name": "SI",
+          "vel": 0,
+          "tst": 1743704370,
+          "acc": 20,
+          "alt": 162,
+          "address": "Spring Hill Rd, Sheffield, S10 1ES, UK",
+          "isotst": "2025-04-03T18:19:30Z"
+        }
+      }
+    ]
+  },
+  "piotr": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752083,
+            50.433612
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743673872,
+          "acc": 43,
+          "alt": 167,
+          "address": "Biedronka, Anieli Krzywoń 9, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T09:51:12Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.751721,
+            50.433661
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 4,
+          "tst": 1743673888,
+          "acc": 25,
+          "alt": 166,
+          "address": "Biedronka, Anieli Krzywoń 9, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T09:51:28Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.751721,
+            50.433661
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 4,
+          "tst": 1743673888,
+          "acc": 25,
+          "alt": 166,
+          "address": "Biedronka, Anieli Krzywoń 9, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T09:51:28Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.751788,
+            50.433688
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743674292,
+          "acc": 31,
+          "alt": 166,
+          "address": "Biedronka, Anieli Krzywoń 9, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T09:58:12Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.751444,
+            50.42356
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743674589,
+          "acc": 773,
+          "alt": 173,
+          "address": "Henryka Łagockiego 11A, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T10:03:09Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.751356,
+            50.418811
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743674589,
+          "acc": 49,
+          "alt": 180,
+          "address": "Jana Pawła II 32, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T10:03:09Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.751389,
+            50.418612
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 4,
+          "tst": 1743674606,
+          "acc": 33,
+          "alt": 181,
+          "address": "Jana Pawła II 32, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T10:03:26Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.75142,
+            50.418409
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743674606,
+          "acc": 35,
+          "alt": 181,
+          "address": "Jana Pawła II 32, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T10:03:26Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.75318,
+            50.414802
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743674747,
+          "acc": 24,
+          "alt": 187,
+          "address": "Rzeszowska 5, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T10:05:47Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753217,
+            50.415466
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743675564,
+          "acc": 7,
+          "alt": 184,
+          "address": "al. Zwycięstwa 1, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T10:19:24Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.750508,
+            50.414853
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743682444,
+          "acc": 47,
+          "alt": 185,
+          "address": "Ignacego Krasickiego 17, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T12:14:04Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.750609,
+            50.414263
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 33,
+          "tst": 1743682455,
+          "acc": 20,
+          "alt": 185,
+          "address": "Ignacego Krasickiego 17, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T12:14:15Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.75141,
+            50.410669
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743682771,
+          "acc": 45,
+          "alt": 184,
+          "address": "Leśna, 39-640 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T12:19:31Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.751587,
+            50.411417
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 1,
+          "tst": 1743682779,
+          "acc": 32,
+          "alt": 188,
+          "address": "Jan Paweł II, Leśna 24, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T12:19:39Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.751522,
+            50.411428
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 2,
+          "tst": 1743682783,
+          "acc": 23,
+          "alt": 188,
+          "address": "Kościół pw. Podwyższenia Krzyża Świętego, Leśna 24, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T12:19:43Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.751522,
+            50.411428
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 2,
+          "tst": 1743682783,
+          "acc": 23,
+          "alt": 188,
+          "address": "Kościół pw. Podwyższenia Krzyża Świętego, Leśna 24, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T12:19:43Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.736893,
+            50.417899
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743687616,
+          "acc": 20,
+          "alt": 182,
+          "address": "Cmentarna, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T13:40:16Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.73698,
+            50.417938
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 2,
+          "tst": 1743687633,
+          "acc": 12,
+          "alt": 182,
+          "address": "Cmentarna, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T13:40:33Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.736033,
+            50.419749
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 1,
+          "tst": 1743687904,
+          "acc": 24,
+          "alt": 179,
+          "address": "Cmentarna, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T13:45:04Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.736047,
+            50.41978
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743687909,
+          "acc": 13,
+          "alt": 179,
+          "address": "Cmentarna, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T13:45:09Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.735772,
+            50.419748
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743689134,
+          "acc": 12,
+          "alt": 178,
+          "address": "Cmentarna, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T14:05:34Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753448,
+            50.41536
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743693980,
+          "acc": 21,
+          "alt": 186,
+          "address": "al. Zwycięstwa 1, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T15:26:20Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753448,
+            50.415368
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743694116,
+          "acc": 8,
+          "alt": 186,
+          "address": "al. Zwycięstwa 1, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T15:28:36Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.735554,
+            50.419829
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 1,
+          "tst": 1743699543,
+          "acc": 24,
+          "alt": 179,
+          "address": "Cmentarna, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T16:59:03Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.735522,
+            50.419853
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743699560,
+          "acc": 14,
+          "alt": 178,
+          "address": "Cmentarna, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T16:59:20Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.735974,
+            50.419677
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743700503,
+          "acc": 14,
+          "alt": 181,
+          "address": "Cmentarna, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T17:15:03Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752651,
+            50.414206
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743701297,
+          "acc": 21,
+          "alt": 187,
+          "address": "Jana Pawła II 12, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T17:28:17Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752689,
+            50.414199
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 1,
+          "tst": 1743701403,
+          "acc": 10,
+          "alt": 187,
+          "address": "Jana Pawła II 12, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T17:30:03Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.751857,
+            50.414614
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 4,
+          "tst": 1743702190,
+          "acc": 30,
+          "alt": 186,
+          "address": "Jana Pawła II 12, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T17:43:10Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.75055,
+            50.419095
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 2,
+          "tst": 1743703081,
+          "acc": 24,
+          "alt": 180,
+          "address": "Oknopol, Tadeusza Kościuszki 13B, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T17:58:01Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.750549,
+            50.419091
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 3,
+          "tst": 1743703130,
+          "acc": 14,
+          "alt": 180,
+          "address": "Oknopol, Tadeusza Kościuszki 13B, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T17:58:50Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.747223,
+            50.419824
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 3,
+          "tst": 1743703393,
+          "acc": 23,
+          "alt": 177,
+          "address": "Tadeusza Kościuszki, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T18:03:13Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.745441,
+            50.421278
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743703699,
+          "acc": 20,
+          "alt": 173,
+          "address": "Tadeusza Kościuszki, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T18:08:19Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.74625,
+            50.421009
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 2,
+          "tst": 1743704417,
+          "acc": 11,
+          "alt": 177,
+          "address": "Tadeusza Kościuszki, 49-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T18:20:17Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.746468,
+            50.422809
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 4,
+          "tst": 1743704914,
+          "acc": 21,
+          "alt": 173,
+          "address": "Spółdzielcza 31, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T18:28:34Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.746622,
+            50.422872
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 3,
+          "tst": 1743705003,
+          "acc": 10,
+          "alt": 174,
+          "address": "Spółdzielcza 31, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T18:30:03Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.744729,
+            50.42506
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 4,
+          "tst": 1743705226,
+          "acc": 23,
+          "alt": 173,
+          "address": "Jana Kilińskiego 47, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T18:33:46Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.744154,
+            50.423353
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 3,
+          "tst": 1743705531,
+          "acc": 27,
+          "alt": 173,
+          "address": "Spacerowa 25, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T18:38:51Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.744384,
+            50.421078
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 1,
+          "tst": 1743705825,
+          "acc": 19,
+          "alt": 174,
+          "address": "Spacerowa 11, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T18:43:45Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.746799,
+            50.418123
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 2,
+          "tst": 1743706449,
+          "acc": 31,
+          "alt": 178,
+          "address": "Kryta Pływalnia SOSiR, Tadeusza Kościuszki 14, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T18:54:09Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.749653,
+            50.418896
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 1,
+          "tst": 1743706742,
+          "acc": 29,
+          "alt": 179,
+          "address": "Tadeusza Kościuszki 16, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T18:59:02Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.750607,
+            50.417899
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743707062,
+          "acc": 17,
+          "alt": 187,
+          "address": "Jana Pawła II 32, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T19:04:22Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.750831,
+            50.417846
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 1,
+          "tst": 1743707660,
+          "acc": 13,
+          "alt": 185,
+          "address": "Jana Pawła II 32, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T19:14:20Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753639,
+            50.414389
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743714601,
+          "acc": 34,
+          "alt": 0,
+          "address": "Rzeszowska 5, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:10:01Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753596,
+            50.414444
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743714858,
+          "acc": 9,
+          "alt": 186,
+          "address": "Rzeszowska 5, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:14:18Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753596,
+            50.414444
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743714858,
+          "acc": 9,
+          "alt": 186,
+          "address": "Rzeszowska 5, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:14:18Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752912,
+            50.415492
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743715759,
+          "acc": 21,
+          "alt": 185,
+          "address": "al. Zwycięstwa 1, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:29:19Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752553,
+            50.423478
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743716073,
+          "acc": 1000,
+          "alt": 178,
+          "address": "Henryka Łagockiego 9, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:34:33Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752383,
+            50.425807
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743716073,
+          "acc": 185,
+          "alt": 170,
+          "address": "Henryka Łagockiego 33, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:34:33Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.75116,
+            50.427885
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 47,
+          "tst": 1743716087,
+          "acc": 13,
+          "alt": 169,
+          "address": "Henryka Łagockiego 43, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:34:47Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.750969,
+            50.428315
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 46,
+          "tst": 1743716090,
+          "acc": 8,
+          "alt": 169,
+          "address": "Henryka Łagockiego 43, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:34:50Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753102,
+            50.422463
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743716215,
+          "acc": 38,
+          "alt": 174,
+          "address": "Henryka Łagockiego 10, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:36:55Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752823,
+            50.418938
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743716252,
+          "acc": 45,
+          "alt": 183,
+          "address": "Tadeusza Kościuszki, 39-640 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:37:32Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752946,
+            50.416857
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743716280,
+          "acc": 42,
+          "alt": 182,
+          "address": "Neopunkt, Rzeszowska 19, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:38:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753862,
+            50.414156
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743716307,
+          "acc": 45,
+          "alt": 183,
+          "address": "Rzeszowska 5, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:38:27Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753682,
+            50.409431
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743716380,
+          "acc": 115,
+          "alt": 188,
+          "address": "Adama Mickiewicza 11, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:39:40Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.7542,
+            50.409243
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743716685,
+          "acc": 92,
+          "alt": 188,
+          "address": "Adama Mickiewicza 15, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:44:45Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753208,
+            50.415468
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 2,
+          "tst": 1743716913,
+          "acc": 22,
+          "alt": 185,
+          "address": "al. Zwycięstwa 1, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:48:33Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.753226,
+            50.415473
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743716932,
+          "acc": 9,
+          "alt": 186,
+          "address": "al. Zwycięstwa 1, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:48:52Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.75312,
+            50.415476
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743717212,
+          "acc": 21,
+          "alt": 184,
+          "address": "al. Zwycięstwa 1, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T21:53:32Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752935,
+            50.42207
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 25,
+          "tst": 1743720843,
+          "acc": 46,
+          "alt": 175,
+          "address": "Henryka Łagockiego 10, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T22:54:03Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.752778,
+            50.423244
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 45,
+          "tst": 1743720864,
+          "acc": 9,
+          "alt": 175,
+          "address": "Henryka Łagockiego 9, 39-460 Nowa Dęba, Poland",
+          "isotst": "2025-04-03T22:54:24Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.74028,
+            50.45329
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743721125,
+          "acc": 76,
+          "alt": 166,
+          "address": "9, 39-460 Tarnowska Wola, Poland",
+          "isotst": "2025-04-03T22:58:45Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.735968,
+            50.455766
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743721204,
+          "acc": 1075,
+          "alt": 160,
+          "address": "103, 39-460 Tarnowska Wola, Poland",
+          "isotst": "2025-04-03T23:00:04Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            21.735039,
+            50.457012
+          ]
+        },
+        "properties": {
+          "name": "PI",
+          "vel": 0,
+          "tst": 1743722131,
+          "acc": 22,
+          "alt": 158,
+          "address": "225, 39-460 Tarnowska Wola, Poland",
+          "isotst": "2025-04-03T23:15:31Z"
+        }
+      }
+    ]
+  }
+}

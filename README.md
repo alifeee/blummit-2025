@@ -4,13 +4,16 @@ Maps showing routes for Big Blummit 2025.
 
 ## export geojson
 
-export geojson from OwnTracks with something like
+export geojson from OwnTracks with something like this for each day
 
 
 ```bash
-for person in alfie clarice evie eli nyama hannah oli sid ; do
-  ocat --user "${person}" --device phone --format geojson --from 2025-04-06T00:00 --to 2025-04-07T00:00 | jq '{"'"${person}"'": .}'
-done | jq --slurp '. | add' > /var/www/static/owntracks/all.geojson
+from="2025-04-03"
+to="2025-04-04"
+day=$(date --date="${from}" '+%A' | tr '[A-Z]' '[a-z]')
+for person in alfie clarice evie eli nyama hannah oli sid piotr ; do
+  ocat --user "${person}" --device phone --format geojson --from "${from}T00:00" --to "${to}T00:00" | jq '{"'"${person}"'": .}'
+done | jq --slurp '. | add' > "/var/www/static/owntracks/all_${from}_${day}.geojson"
 ```
 
 …which puts several `.geojson` files into one JSON file to be loaded.
