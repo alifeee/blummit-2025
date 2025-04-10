@@ -29,7 +29,7 @@ done | jq --slurp '. | add' > "/var/www/static/owntracks/all_${from}_${day}.geoj
 
 ## todo
 
-- add more people (everyone at once)
 - trigger animation (splash?) when position updates (to be obvious when zoomed out)
 - fade markers based on timestamp age
+- make markers into faces instead of coloured blobs
 - add splash loading screen
