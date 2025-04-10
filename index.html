@@ -152,8 +152,8 @@
         container: "map",
         style: "mapbox://styles/mapbox/streets-v9",
         projection: "globe", // Display the map as a globe, since satellite-v9 defaults to Mercator
-        zoom: 12,
-        center: [13.7677456, 49.8528484],
+        zoom: 6,
+        center: [10.52, 52.05],
       });
 
       map.addControl(new mapboxgl.NavigationControl());
@@ -164,7 +164,35 @@
       });
 
       map.on("load", function () {
-        fetch("all_2025-04-05_saturday.geojson")
+        const urlParams = new URLSearchParams(window.location.search);
+        let day = urlParams.get("d");
+
+        let file;
+        switch (day) {
+          case "0":
+            file = "all_2025-04-03_thursday.geojson";
+            break;
+          case "1":
+            file = "all_2025-04-04_friday.geojson";
+            break;
+          case "2":
+            file = "all_2025-04-05_saturday.geojson";
+            break;
+          case "3":
+            file = "all_2025-04-06_sunday.geojson";
+            break;
+          case "4":
+            file = "all_2025-04-07_monday.geojson";
+            break;
+          case "5":
+            file = "all_2025-04-08_tuesday.geojson";
+            break;
+          default:
+            file = "all_2025-04-05_saturday.geojson";
+            break;
+        }
+
+        fetch(file)
           .then((data) => data.json())
           .then((geojson) => {
             all_geojson = geojson;
