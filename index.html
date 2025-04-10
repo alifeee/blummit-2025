@@ -17,60 +17,120 @@
       * {
         box-sizing: border-box;
       }
+      html,
+      body {
+        height: 100%;
+      }
       body {
         margin: 0;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      main {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
       }
       #map {
-        position: absolute;
-        top: 0;
-        bottom: 10rem;
-        width: 100%;
+        flex-grow: 1;
       }
-      .tst {
-        position: absolute;
-        bottom: 0;
-        height: 10rem;
+
+      #clock {
+        display: grid;
+        grid-template-areas: ". h1 h2 s m1 m2 ." ". d d d d d ." ". D D D D D .";
+        grid-template-columns: auto 2rem 2rem 1rem 2rem 2rem auto;
         width: 100%;
-        padding: 0.5rem;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
       }
-      #timestamp {
-        width: 100%;
+      #clock > * {
+        text-align: center;
       }
-      .tst label {
+      #clock .big {
+        font-size: 2.5rem;
+        font-weight: bolder;
+      }
+
+      .hour1 {
+        grid-area: h1;
+      }
+      .hour2 {
+        grid-area: h2;
+      }
+      .separator {
+        grid-area: s;
+      }
+      .minute1 {
+        grid-area: m1;
+      }
+      .minute2 {
+        grid-area: m2;
+      }
+      .day {
+        grid-area: d;
+      }
+      .date {
+        grid-area: D;
+      }
+
+      .controls label {
         margin: auto;
       }
       .legend span {
         margin-right: 0.5rem;
       }
+
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: #333;
+      }
     </style>
   </head>
   <body>
-    <div id="map"></div>
-    <section class="tst">
-      <section class="legend"></section>
-      <button id="playbutton" onclick="play()">play</button>
-      <button id="pausebutton" onclick="pause()" disabled>pause</button>
-      <label for="speedFactor">speed</label>
-      <input
-        type="number"
-        value="1"
-        step="0.25"
-        id="speedFactor"
-        name="speedFactor"
-        autocomplete="off"
-      />
-      <input
-        type="range"
-        id="timestamp"
-        name="timestamp"
-        min="0"
-        max="1"
-        step="any"
-        disabled
-      />
-      <label id="timestamp_label" for="timestamp">...timestamp...</label>
-    </section>
+    <main>
+      <div id="map"></div>
+      <section id="clock">
+        <span class="big hour1">0</span>
+        <span class="big hour2">0</span>
+        <span class="big separator">:</span>
+        <span class="big minute1">0</span>
+        <span class="big minute2">0</span>
+        <span class="day">DAYOFWEEK</span>
+        <span class="date">XX/XX/XX</span>
+      </section>
+      <section class="controls">
+        <section class="legend"></section>
+        <button id="playbutton" onclick="play()">play</button>
+        <button id="pausebutton" onclick="pause()" disabled>pause</button>
+        <label for="speedFactor">speed</label>
+        <input
+          type="number"
+          value="1"
+          step="0.25"
+          id="speedFactor"
+          name="speedFactor"
+          autocomplete="off"
+        />
+        <input
+          type="range"
+          id="timestamp"
+          name="timestamp"
+          min="0"
+          max="1"
+          step="any"
+          disabled
+        />
+        <label id="timestamp_label" for="timestamp">...timestamp...</label>
+      </section>
+    </main>
+    <footer>
+      <p>
+        blummit 2025 · by <a href="https://alifeee.net">alifeee</a> · source
+      </p>
+    </footer>
     <script>
       // geojson (null until loaded)
       let all_geojson;
@@ -97,6 +157,42 @@
         "#00aa66",
         "#0066aa",
       ];
+
+      // clock
+      const clock = document.getElementById("clock");
+      const clock_h1 = clock.querySelector(".hour1");
+      const clock_h2 = clock.querySelector(".hour2");
+      const clock_m1 = clock.querySelector(".minute1");
+      const clock_m2 = clock.querySelector(".minute2");
+      const clock_day = clock.querySelector(".day");
+      const clock_date = clock.querySelector(".date");
+
+      function setclock(date) {
+        const hours = date.getHours();
+        const minutes = date.getMinutes();
+        const days = [
+          null,
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+        ];
+        const day = days[date.getDay()];
+        const datestr = `${date.getDate()}/${
+          date.getMonth() + 1
+        }/${date.getFullYear()}`;
+
+        clock_h1.innerText = Math.floor(hours / 10);
+        clock_h2.innerText = hours % 10;
+        clock_m1.innerText = Math.floor(minutes / 10);
+        clock_m2.innerText = minutes % 10;
+        clock_day.innerText = day;
+        clock_date.innerText = datestr;
+      }
+      setclock(new Date(2025, 3, 10, 12, 26));
 
       // slider
       const timestamp = document.getElementById("timestamp");
