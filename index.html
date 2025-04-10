@@ -74,11 +74,19 @@
         grid-area: D;
       }
 
+      .other-days {
+        text-align: center;
+      }
+
       .controls label {
         margin: auto;
       }
       .legend span {
         margin-right: 0.5rem;
+      }
+      .controls #timestamp {
+        width: 95vw;
+        margin: 0 2.5vw;
       }
 
       footer {
@@ -101,6 +109,14 @@
         <span class="day">DAYOFWEEK</span>
         <span class="date">XX/XX/XX</span>
       </section>
+      <section class="other-days">
+        <p>
+          <a href="?d=0">Thursday</a>
+          · <a href="?d=1">Friday</a> · <a href="?d=2">Saturday</a> ·
+          <a href="?d=3">Sunday</a> · <a href="?d=4">Monday</a> ·
+          <a href="?d=5">Tuesday</a>
+        </p>
+      </section>
       <section class="controls">
         <section class="legend"></section>
         <button id="playbutton" onclick="play()">play</button>
@@ -114,6 +130,7 @@
           name="speedFactor"
           autocomplete="off"
         />
+        <br />
         <input
           type="range"
           id="timestamp"
@@ -123,6 +140,7 @@
           step="any"
           disabled
         />
+        <br />
         <label id="timestamp_label" for="timestamp">...timestamp...</label>
       </section>
     </main>
@@ -171,14 +189,13 @@
         const hours = date.getHours();
         const minutes = date.getMinutes();
         const days = [
-          null,
+          "Sunday",
           "Monday",
           "Tuesday",
           "Wednesday",
           "Thursday",
           "Friday",
           "Saturday",
-          "Sunday",
         ];
         const day = days[date.getDay()];
         const datestr = `${date.getDate()}/${
@@ -192,7 +209,34 @@
         clock_day.innerText = day;
         clock_date.innerText = datestr;
       }
-      setclock(new Date(2025, 3, 10, 12, 26));
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const daynum = urlParams.get("d");
+      let file;
+      switch (daynum) {
+        case "0":
+          file = "all_2025-04-03_thursday.geojson";
+          break;
+        case "1":
+          file = "all_2025-04-04_friday.geojson";
+          break;
+        case "2":
+          file = "all_2025-04-05_saturday.geojson";
+          break;
+        case "3":
+          file = "all_2025-04-06_sunday.geojson";
+          break;
+        case "4":
+          file = "all_2025-04-07_monday.geojson";
+          break;
+        case "5":
+          file = "all_2025-04-08_tuesday.geojson";
+          break;
+        default:
+          file = "all_2025-04-05_saturday.geojson";
+          break;
+      }
+      setclock(new Date(2025, 4, daynum + 3, 0, 0));
 
       // slider
       const timestamp = document.getElementById("timestamp");
@@ -201,6 +245,8 @@
       function update_ts(event) {
         const ts = event.target.value;
         label.innerHTML = ts + " — " + new Date(ts * 1000);
+
+        setclock(new Date(ts * 1000));
 
         Object.entries(all_geojson).forEach(([name, gj], index) => {
           let filtered_geojson = { ...gj };
@@ -260,34 +306,6 @@
       });
 
       map.on("load", function () {
-        const urlParams = new URLSearchParams(window.location.search);
-        let day = urlParams.get("d");
-
-        let file;
-        switch (day) {
-          case "0":
-            file = "all_2025-04-03_thursday.geojson";
-            break;
-          case "1":
-            file = "all_2025-04-04_friday.geojson";
-            break;
-          case "2":
-            file = "all_2025-04-05_saturday.geojson";
-            break;
-          case "3":
-            file = "all_2025-04-06_sunday.geojson";
-            break;
-          case "4":
-            file = "all_2025-04-07_monday.geojson";
-            break;
-          case "5":
-            file = "all_2025-04-08_tuesday.geojson";
-            break;
-          default:
-            file = "all_2025-04-05_saturday.geojson";
-            break;
-        }
-
         fetch(file)
           .then((data) => data.json())
           .then((geojson) => {
@@ -368,10 +386,8 @@
               legend.appendChild(span);
             });
 
-            return;
-
             setTimeout(() => {
-              timestamp.value = earliest_timestamp + 1;
+              timestamp.value = latest_timestamp;
               timestamp.dispatchEvent(new Event("input"));
             }, 1500);
           });
